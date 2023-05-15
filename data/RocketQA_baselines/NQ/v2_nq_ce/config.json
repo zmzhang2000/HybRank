@@ -1,0 +1,10 @@
+{
+    "model_type": "cross_encoder",
+    "max_seq_len": 512,
+    "model_conf_path": "ernie_config.json",
+    "model_vocab_path": "vocab.txt",
+    "model_checkpoint_path": "../checkpoint/nq_joint-encoder_trained",
+    "for_cn": false,
+    "share_parameter": 0,
+    "joint_training": true
+}
