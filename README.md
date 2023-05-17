@@ -1,6 +1,6 @@
 # Hybrid and Collaborative Passage Reranking
 
-Official implementation for Hybrid and Collaborative Passage Reranking
+Official implementation for [Hybrid and Collaborative Passage Reranking](https://arxiv.org/abs/2305.09313)
 
 ## Model Pipeline
 
