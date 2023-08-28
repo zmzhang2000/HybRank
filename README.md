@@ -1,6 +1,6 @@
 # Hybrid and Collaborative Passage Reranking
 
-Official implementation for [Hybrid and Collaborative Passage Reranking](https://arxiv.org/abs/2305.09313)
+Official implementation for [Hybrid and Collaborative Passage Reranking](https://aclanthology.org/2023.findings-acl.880)
 
 ## Model Pipeline
 
@@ -71,15 +71,19 @@ python main.py -h
 ## Reference
 Please cite the following paper if HybRank is helpful for your research
 ```
-@inproceedings{zhang-etal-2023-hybrank,
+@inproceedings{zhang-etal-2023-hybrid,
     title = "Hybrid and Collaborative Passage Reranking",
     author = "Zhang, Zongmeng  and
       Zhou, Wengang  and
       Shi, Jiaxin  and
       Li, Houqiang",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
     year = "2023",
-    address = "Online",
+    address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.880",
+    doi = "10.18653/v1/2023.findings-acl.880",
+    pages = "14003--14021",
 }
 ```
