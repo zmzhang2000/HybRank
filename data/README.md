@@ -1,5 +1,18 @@
-# Prepare Data
+# Dataset for HybRank
 
+You can download preprocessed data from [HuggingFace Repo](https://huggingface.co/datasets/ustc-zhangzm/HybRank)
+
+Note that `train_scores.hdf5` of `MS MARCO` dataset files are split via
+```bash
+split -d -b 3G train_scores.hdf5 train_scores.hdf5.
+```
+
+Run following command to concatenate these files after all shards have been downloaded
+```bash
+cat train_scores.hdf5.* > train_scores.hdf5
+```
+
+Or you can generate data by yourself via the following steps:
 
 ## Dependencies
 ```
