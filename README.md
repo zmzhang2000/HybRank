@@ -18,10 +18,10 @@ conda activate hybrank
 
 ### Data
 
-Download [preprocessed data for code verification](https://drive.google.com/drive/folders/1qkMkNoN6o5cEq2_2ob5Zpmz6wY7Y5I4e?usp=share_link) including:
-* Natural Questions Devset and Testset with DPR-Multi retriever
+You can download preprocessed data from [HuggingFace Repo](https://huggingface.co/datasets/ustc-zhangzm/HybRank) including:
+* Natural Questions Trainset, Devset and Testset with DPR-Multi retriever
 * Pretrained checkpoint for Natural Questions with DPR-Multi retriever
-* MS MARCO Devset and TREC 2019/2020 Testset with ANCE retriever
+* MS MARCO Trainset and Devset and TREC 2019/2020 Testset with ANCE retriever
 * Pretrained checkpoint for MS MARCO with ANCE retriever
 
 Preprocessed data for other datasets or retrievers (~800G in total) will not be uploaded due to the space limitation of cloud storage. 
